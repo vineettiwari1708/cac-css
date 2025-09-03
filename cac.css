@@ -1,0 +1,9 @@
+.footer-widget-area[data-section="sidebar-widgets-footer-widget-4"] .widget-title{
+	color:var(--ast-global-color-4);
+}
+.footer-widget-area[data-section="sidebar-widgets-footer-widget-4"] .footer-widget-area-inner a {
+    color: var(--ast-global-color-4);
+}
+.footer-widget-area[data-section="sidebar-widgets-footer-widget-4"] .footer-widget-area-inner a:hover {
+    color: var(--ast-global-color-4);
+}
