@@ -1,0 +1,4 @@
+.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator
+ {
+   margin:0 0 0 40px!important;
+}
