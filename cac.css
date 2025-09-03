@@ -7,3 +7,4 @@
 .footer-widget-area[data-section="sidebar-widgets-footer-widget-4"] .footer-widget-area-inner a:hover {
     color: var(--ast-global-color-4);
 }
+.ast-builder-html-element p a:hover{color:white;}
