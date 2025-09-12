@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sofa Cleaning Banner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Bebas Neue', sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    .banner {
+      width: 100%;
+      max-width: 1280px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      background: #000;
+    }
+
+    .top-section {
+      display: flex;
+      flex-direction: row;
+      height: 400px;
+    }
+
+    .left-image {
+      width: 50%;
+      background: url('./sofa-cleaning.jpg') no-repeat center center;
+      background-size: cover;
+      border-left: 8px solid #00ff33;
+    }
+
+    .right-content {
+      width: 50%;
+      background: linear-gradient(to right, #1a1a1a, #444);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .logo img {
+      width: 180px;
+    }
+
+    .service-info {
+      background: linear-gradient(to right, #00cc00, #00ff66);
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    .service-info h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .service-info p {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-top: 5px;
+    }
+
+    .bottom-bar {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .phone-icon {
+      width: 30px;
+      height: 30px;
+      background: url('https://cdn-icons-png.flaticon.com/512/159/159832.png') no-repeat center center;
+      background-size: contain;
+      filter: brightness(0) saturate(100%) invert(51%) sepia(92%) saturate(749%) hue-rotate(72deg) brightness(113%) contrast(102%);
+    }
+
+    .phone-number {
+      font-size: 24px;
+      color: #33ff33;
+    }
+
+    @media (max-width: 768px) {
+      .top-section {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .left-image, .right-content {
+        width: 100%;
+        height: 250px;
+      }
+
+      .service-info h1 {
+        font-size: 28px;
+      }
+
+      .service-info p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner">
+    <!-- Top Section -->
+    <div class="top-section">
+      <div class="left-image"></div>
+      <div class="right-content">
+        <div class="logo">
+          <img src="./logo-light.png" alt="Craze Car Care Logo">
+        </div>
+        <div class="service-info">
+          <h1>SOFA CLEANING</h1>
+          <p>We assure you a secured relax in your living room too</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+      <div class="phone-icon"></div>
+      <div class="phone-number">+91-8853102223</div>
+    </div>
+  </div>
+
+</body>
+</html>
