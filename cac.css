@@ -33,3 +33,9 @@ a.menu-link {
 }
 
 
+.close-uniqe{
+	width:100%;
+	display:flex;
+	justify-content: flex-end;
+}
+
