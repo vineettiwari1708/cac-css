@@ -39,3 +39,9 @@ a.menu-link {
 	justify-content: flex-end;
 }
 
+a, .page-title
+
+ {
+    color: var(--ast-global-color-2);
+}
+
