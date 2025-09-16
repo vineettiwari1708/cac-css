@@ -12,13 +12,18 @@
 /* ---------------------------- */
 
 @media (min-width: 768px) {
-	.ast-theme-transparent-header .main-header-bar{padding-top:0px;
-	padding-bottom:0px;}
+	.ast-theme-transparent-header .main-header-bar{
+	padding-top:0px;
+	padding-bottom:0px;
+	}
 }
 a.menu-link {
     font-weight: 900;
 }
-
+.ast-above-header.ast-above-header-bar
+ {
+    margin-bottom: 0px;
+}
 
 
 .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
