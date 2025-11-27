@@ -11,9 +11,9 @@
 
 /* ---------------------------- */
 @media (min-width: 769px) and (max-width: 1024px) {
- .ast-header-button-1{display:none;}
+ .ast-custom-button{display:none;}
 
-	.elementor-element-20cf592{margin-top:150px;}
+	
 }
 @media (min-width: 768px) {
 	.ast-theme-transparent-header .main-header-bar{
