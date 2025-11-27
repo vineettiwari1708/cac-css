@@ -10,7 +10,9 @@
 .ast-builder-html-element p a:hover{color:white;}
 
 /* ---------------------------- */
-
+@media (min-width: 769px) and (max-width: 1024px) {
+ .ast-header-button-1{display:none;}
+}
 @media (min-width: 768px) {
 	.ast-theme-transparent-header .main-header-bar{
 	padding-top:0px;
